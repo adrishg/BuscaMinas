@@ -10,5 +10,7 @@ package buscaminas;
  * @author LENOVO
  */
 public class Celda {
+    public Boolean estado;
+    public Integer valor;
     
 }

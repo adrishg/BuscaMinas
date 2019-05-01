@@ -5,10 +5,15 @@
  */
 package buscaminas;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author LENOVO
  */
 public class Partida {
+    public Tablero tablero_partida;
+    public ArrayList<Jugador> jugadores;
+    public int numMinas;
     
 }

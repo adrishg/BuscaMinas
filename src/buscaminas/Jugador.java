@@ -13,4 +13,16 @@ public class Jugador {
     
     public String nombre;
     
+    
+    public String getNombre(){
+    return nombre;
+    }
+
+//Constructor de Jugador
+    public Jugador (String nombre){
+        this.nombre=nombre;
+  
+    }
+    
+    
 }
